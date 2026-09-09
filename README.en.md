@@ -1,6 +1,6 @@
 <div align="center">
 
-# XXD Panel 220｜摄影与数码混合媒介拼贴海报
+# XXD Panel 222｜摄影与数码混合媒介拼贴海报
 
 Redirect an everyday photograph into a standalone art poster, preserving its recognisable core while rethinking material, composition and whitespace.
 
@@ -40,7 +40,7 @@ Read the subject and relationships → extract the original brief’s visual lan
 
 - `top-bottom`: exactly two full-width regions, reality above and design below, 50% each.
 - `left-right`: exactly two full-height regions, reality left and design right, 50% each; it never rotates into a top-bottom layout.
-- `design-only`: the full canvas contains only Panel 220's designed translation; the photograph remains a non-visible reference.
+- `design-only`: the full canvas contains only Panel 222's designed translation; the photograph remains a non-visible reference.
 - `wallpaper-pack`: creates complete artworks for phone, iPad, desktop, and watch, either `linked` as a coherent family or `independent` as four separate works.
 
 Modes and sizes may be combined. Supported sizes include `1:1`, `3:4`, `4:3`, `4:5`, `5:4`, `2:3`, `3:2`, `9:16`, `16:9`, `21:9`, `5:7`, `7:5`, and exact pixels. Text can be prompt-generated, user-exact, or absent. A directory is inventoried recursively and every source is isolated while sharing one set of delivery settings; final PNG files remain flat in one fresh task directory.
@@ -50,21 +50,21 @@ Modes and sizes may be combined. Supported sizes include `1:1`, `3:4`, `4:3`, `4
 Install from GitHub:
 
 ```bash
-npx skills add https://github.com/nevertoday/xxd-panel-220 --skill xxd-panel-220
+npx skills add https://github.com/nevertoday/xxd-panel-222 --skill xxd-panel-222
 ```
 
-Restart the agent session after installation, then invoke `$xxd-panel-220`. Add `--global --agent codex --yes` when a user-level Codex installation is wanted.
+Restart the agent session after installation, then invoke `$xxd-panel-222`. Add `--global --agent codex --yes` when a user-level Codex installation is wanted.
 
 Common examples:
 
 ```text
-/xxd-panel-220 photo.jpg --mode top-bottom --size 3:4 --text prompt --locale en-US
-/xxd-panel-220 photo.jpg --mode left-right --size 16:9 --text prompt --locale en-US
-/xxd-panel-220 photo.jpg --mode design-only --size 9:16 --text none --prefs off
-/xxd-panel-220 ./photos --mode design-only --size auto,3:4 --text prompt --locale ja-JP
+/xxd-panel-222 photo.jpg --mode top-bottom --size 3:4 --text prompt --locale en-US
+/xxd-panel-222 photo.jpg --mode left-right --size 16:9 --text prompt --locale en-US
+/xxd-panel-222 photo.jpg --mode design-only --size 9:16 --text none --prefs off
+/xxd-panel-222 ./photos --mode design-only --size auto,3:4 --text prompt --locale ja-JP
 ```
 
-See [SKILL.md](SKILL.md) for the full runtime contract and the [English](references/xxd-panel-220-prompt.en.md) or [Chinese](references/xxd-panel-220-prompt.zh-CN.md) runtime adapter.
+See [SKILL.md](SKILL.md) for the full runtime contract and the [English](references/xxd-panel-222-prompt.en.md) or [Chinese](references/xxd-panel-222-prompt.zh-CN.md) runtime adapter.
 
 <!-- xxd-readme-ads:start -->
 ## About XXD

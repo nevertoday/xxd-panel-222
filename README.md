@@ -1,6 +1,6 @@
 <div align="center">
 
-# XXD Panel 220｜摄影与数码混合媒介拼贴海报
+# XXD Panel 222｜摄影与数码混合媒介拼贴海报
 
 把普通照片重新导演成可独立使用的艺术海报；保留主体记忆点，让材质、构图与留白共同工作。
 
@@ -24,7 +24,7 @@
 
 [中文完整原稿](references/original-prompt/zh-CN.md)逐字保留，是运行时唯一的创作与审美权威。本批提供五语使用说明，不另做四份长原稿译文；风格简介只用于检索，不得替代原文。
 
-## 快速判断：Panel 220 适合你吗？
+## 快速判断：Panel 222 适合你吗？
 
 既要保留源图身份，也要重新构图；既要材质特征，也要主动留白。可选准确文字、智能文案或无文字；支持单图、递归目录批量以及下方四种交付模式。
 
@@ -40,7 +40,7 @@
 
 - `top-bottom`：整张画布只有上下两个全宽区域，现实照片在上、设计在下，严格各占 50%。
 - `left-right`：整张画布只有左右两个全高区域，现实照片在左、设计在右，严格各占 50%，不会旋转成上下结构。
-- `design-only`：整张画布只呈现 Panel 220 的设计转译，照片只作为不可见参考。
+- `design-only`：整张画布只呈现 Panel 222 的设计转译，照片只作为不可见参考。
 - `wallpaper-pack`：按手机、iPad、桌面和手表分别生成完整设计壁纸，可选 `linked` 连贯套装或 `independent` 四张独立。
 
 支持多选模式与比例（`1:1`、`3:4`、`4:3`、`4:5`、`5:4`、`2:3`、`3:2`、`9:16`、`16:9`、`21:9`、`5:7`、`7:5` 或准确像素），以及模型生成文字、准确文字和无文字。传入目录会递归扫描图片，每张源图独立处理，共用一次交付设置；最终 PNG 平铺放入一个新任务目录。
@@ -50,21 +50,21 @@
 从 GitHub 安装：
 
 ```bash
-npx skills add https://github.com/nevertoday/xxd-panel-220 --skill xxd-panel-220
+npx skills add https://github.com/nevertoday/xxd-panel-222 --skill xxd-panel-222
 ```
 
-安装后重新启动 Agent 会话，然后调用 `$xxd-panel-220`。也可以按需追加 `--global --agent codex --yes` 做用户级安装。
+安装后重新启动 Agent 会话，然后调用 `$xxd-panel-222`。也可以按需追加 `--global --agent codex --yes` 做用户级安装。
 
 常用调用示例：
 
 ```text
-/xxd-panel-220 photo.jpg --mode top-bottom --size 3:4 --text prompt --locale zh-CN
-/xxd-panel-220 photo.jpg --mode left-right --size 16:9 --text prompt --locale en-US
-/xxd-panel-220 photo.jpg --mode design-only --size 9:16 --text none --prefs off
-/xxd-panel-220 ./photos --mode design-only --size auto,3:4 --text prompt --locale ja-JP
+/xxd-panel-222 photo.jpg --mode top-bottom --size 3:4 --text prompt --locale zh-CN
+/xxd-panel-222 photo.jpg --mode left-right --size 16:9 --text prompt --locale en-US
+/xxd-panel-222 photo.jpg --mode design-only --size 9:16 --text none --prefs off
+/xxd-panel-222 ./photos --mode design-only --size auto,3:4 --text prompt --locale ja-JP
 ```
 
-完整运行契约见 [SKILL.md](SKILL.md)；运行适配器见 [英文](references/xxd-panel-220-prompt.en.md) 与 [中文](references/xxd-panel-220-prompt.zh-CN.md)。
+完整运行契约见 [SKILL.md](SKILL.md)；运行适配器见 [英文](references/xxd-panel-222-prompt.en.md) 与 [中文](references/xxd-panel-222-prompt.zh-CN.md)。
 
 <!-- xxd-readme-ads:start -->
 ## 关于 XXD

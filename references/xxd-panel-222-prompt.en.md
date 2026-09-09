@@ -1,4 +1,4 @@
-# Panel 220 runtime adapter
+# Panel 222 runtime adapter
 
 The canonical source brief is `references/original-prompt/zh-CN.md`. This adapter records delivery variables only and never replaces the original aesthetic instructions.
 

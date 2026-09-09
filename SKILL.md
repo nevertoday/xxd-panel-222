@@ -1,9 +1,9 @@
 ---
-name: xxd-panel-220
-description: "Create Panel 220 raster artwork: 摄影与数码混合媒介拼贴海报. Use when the user invokes xxd-panel-220 or requests this specific visual language."
+name: xxd-panel-222
+description: "Create Panel 222 raster artwork: 摄影与数码混合媒介拼贴海报. Use when the user invokes xxd-panel-222 or requests this specific visual language."
 ---
 
-# XXD Panel 220
+# XXD Panel 222
 
 Create finished PNG artwork from the current user-supplied photograph or image directory. Read `references/original-prompt/zh-CN.md` completely immediately before every generation. That Chinese source brief is the sole creative and aesthetic authority; never summarise, translate, blend, or replace it with this file, a README, a sample, or another Panel.
 
@@ -33,7 +33,7 @@ Generate only the outputs the current user requests. Repository samples are opti
 
 Check this Panel against the complete canonical source, including its specific composition, subject scale, medium, palette and image–text relationship. Do not import another Panel's acceptance criteria.
 
-Write final PNGs directly inside one fresh task directory under `~/Desktop/xxd/xxd-panel-220/` or the explicit output root. Use collision-safe filenames; do not create source, mode, or size subdirectories and do not generate an automatic contact sheet.
+Write final PNGs directly inside one fresh task directory under `~/Desktop/xxd/xxd-panel-222/` or the explicit output root. Use collision-safe filenames; do not create source, mode, or size subdirectories and do not generate an automatic contact sheet.
 
 Inspect every result at full and thumbnail size. Accept only when the source, ratio, and source visibility are correct; for comparison modes, the split direction and exact 50:50 midpoint are correct; the transformed region follows the complete current source brief directly, including its distinctive medium, exact source-brief palette (fixed or source-derived), subject scale, abundant intentional whitespace and specified image–text relationship; text follows the chosen mode and locale; and there is no watermark, SVG substitute, UI, third band, or second-pass artefact.
 
@@ -46,4 +46,4 @@ Before delivery or publication, clean the final images using the available `xxd-
 - `references/original-prompt/zh-CN.md` — canonical runtime brief
 - `references/original-prompt/README.md` — source index and authority note
 - `references/runtime-preferences.md` — safe delivery-preference reuse
-- `references/xxd-panel-220-prompt.zh-CN.md` and `.en.md` — delivery adapter notes
+- `references/xxd-panel-222-prompt.zh-CN.md` and `.en.md` — delivery adapter notes

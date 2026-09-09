@@ -1,6 +1,6 @@
 <div align="center">
 
-# XXD Panel 220｜摄影与数码混合媒介拼贴海报
+# XXD Panel 222｜摄影与数码混合媒介拼贴海报
 
 أعد إخراج صورة يومية كملصق فني مستقل، مع حفظ جوهرها المميز وإعادة التفكير في الخامة والتكوين والفراغ.
 
@@ -40,7 +40,7 @@
 
 - `top-bottom`: منطقتان أفقيتان كاملتا العرض فقط؛ الواقع في الأعلى والتصميم في الأسفل، 50% لكل منهما.
 - `left-right`: منطقتان عموديتان كاملتا الارتفاع فقط؛ الواقع يساراً والتصميم يميناً، 50% لكل منهما، ولا يتحول إلى تخطيط علوي/سفلي.
-- `design-only`: تعرض اللوحة الكاملة ترجمة Panel 220 التصميمية فقط، وتبقى الصورة مرجعاً غير ظاهر.
+- `design-only`: تعرض اللوحة الكاملة ترجمة Panel 222 التصميمية فقط، وتبقى الصورة مرجعاً غير ظاهر.
 - `wallpaper-pack`: ينشئ عملاً كاملاً للهاتف وiPad وسطح المكتب والساعة، إما كعائلة `linked` أو أربعة أعمال `independent`.
 
 يمكن جمع الأنماط والأحجام. تشمل النسب `1:1` و`3:4` و`4:3` و`4:5` و`5:4` و`2:3` و`3:2` و`9:16` و`16:9` و`21:9` و`5:7` و`7:5` والبكسلات الدقيقة. يمكن أن يكون النص مولداً أو حرفياً من المستخدم أو غائباً. عند إدخال مجلد، تُعالج كل صورة بمعزل عن الأخرى مع إعدادات تسليم مشتركة، وتوضع ملفات PNG النهائية مباشرة في مجلد مهمة جديد واحد.
@@ -50,18 +50,18 @@
 التثبيت من GitHub:
 
 ```bash
-npx skills add https://github.com/nevertoday/xxd-panel-220 --skill xxd-panel-220
+npx skills add https://github.com/nevertoday/xxd-panel-222 --skill xxd-panel-222
 ```
 
-بعد التثبيت أعد تشغيل جلسة Agent ثم استدعِ `$xxd-panel-220`. ويمكن إضافة `--global --agent codex --yes` للتثبيت على مستوى المستخدم.
+بعد التثبيت أعد تشغيل جلسة Agent ثم استدعِ `$xxd-panel-222`. ويمكن إضافة `--global --agent codex --yes` للتثبيت على مستوى المستخدم.
 
 ```text
-/xxd-panel-220 photo.jpg --mode top-bottom --size 3:4 --text prompt --locale ar-SA
-/xxd-panel-220 photo.jpg --mode left-right --size 16:9 --text prompt --locale en-US
-/xxd-panel-220 photo.jpg --mode design-only --size 9:16 --text none --prefs off
+/xxd-panel-222 photo.jpg --mode top-bottom --size 3:4 --text prompt --locale ar-SA
+/xxd-panel-222 photo.jpg --mode left-right --size 16:9 --text prompt --locale en-US
+/xxd-panel-222 photo.jpg --mode design-only --size 9:16 --text none --prefs off
 ```
 
-راجع [SKILL.md](SKILL.md) لعقد التشغيل الكامل، ومهايئ التشغيل [بالإنجليزية](references/xxd-panel-220-prompt.en.md) أو [بالصينية](references/xxd-panel-220-prompt.zh-CN.md).
+راجع [SKILL.md](SKILL.md) لعقد التشغيل الكامل، ومهايئ التشغيل [بالإنجليزية](references/xxd-panel-222-prompt.en.md) أو [بالصينية](references/xxd-panel-222-prompt.zh-CN.md).
 
 <!-- xxd-readme-ads:start -->
 ## عن XXD

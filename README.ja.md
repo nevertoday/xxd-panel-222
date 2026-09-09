@@ -1,6 +1,6 @@
 <div align="center">
 
-# XXD Panel 220｜摄影与数码混合媒介拼贴海报
+# XXD Panel 222｜摄影与数码混合媒介拼贴海报
 
 日常の写真を独立したアートポスターへ。被写体の記憶点を残し、素材・構図・余白を組み直します。
 
@@ -40,7 +40,7 @@
 
 - `top-bottom`：全幅の上下2領域のみ。実写を上、デザインを下に置き、各50%。
 - `left-right`：全高の左右2領域のみ。実写を左、デザインを右に置き、各50%。上下構成へ回転しません。
-- `design-only`：全画面を Panel 220 のデザイン翻訳にし、写真は見えない参照にします。
+- `design-only`：全画面を Panel 222 のデザイン翻訳にし、写真は見えない参照にします。
 - `wallpaper-pack`：スマートフォン、iPad、デスクトップ、時計を端末ごとに生成。`linked` または `independent` を選べます。
 
 モードと比率は複数指定できます。`1:1`、`3:4`、`4:3`、`4:5`、`5:4`、`2:3`、`3:2`、`9:16`、`16:9`、`21:9`、`5:7`、`7:5`、正確なピクセルに対応します。文字はプロンプト生成、指定文の逐字使用、なしから選べます。フォルダ入力では各画像を分離して処理し、PNGを一つの新しいタスクフォルダへ置きます。
@@ -50,18 +50,18 @@
 GitHub からインストール：
 
 ```bash
-npx skills add https://github.com/nevertoday/xxd-panel-220 --skill xxd-panel-220
+npx skills add https://github.com/nevertoday/xxd-panel-222 --skill xxd-panel-222
 ```
 
-インストール後に Agent セッションを再起動し、`$xxd-panel-220` を呼び出します。ユーザー単位の Codex には `--global --agent codex --yes` を追加できます。
+インストール後に Agent セッションを再起動し、`$xxd-panel-222` を呼び出します。ユーザー単位の Codex には `--global --agent codex --yes` を追加できます。
 
 ```text
-/xxd-panel-220 photo.jpg --mode top-bottom --size 3:4 --text prompt --locale ja-JP
-/xxd-panel-220 photo.jpg --mode left-right --size 16:9 --text prompt --locale en-US
-/xxd-panel-220 photo.jpg --mode design-only --size 9:16 --text none --prefs off
+/xxd-panel-222 photo.jpg --mode top-bottom --size 3:4 --text prompt --locale ja-JP
+/xxd-panel-222 photo.jpg --mode left-right --size 16:9 --text prompt --locale en-US
+/xxd-panel-222 photo.jpg --mode design-only --size 9:16 --text none --prefs off
 ```
 
-完全な実行契約は [SKILL.md](SKILL.md)、実行アダプターは[英語](references/xxd-panel-220-prompt.en.md)／[中国語](references/xxd-panel-220-prompt.zh-CN.md)を参照してください。
+完全な実行契約は [SKILL.md](SKILL.md)、実行アダプターは[英語](references/xxd-panel-222-prompt.en.md)／[中国語](references/xxd-panel-222-prompt.zh-CN.md)を参照してください。
 
 <!-- xxd-readme-ads:start -->
 ## XXD について

@@ -1,6 +1,6 @@
 <div align="center">
 
-# XXD Panel 220｜摄影与数码混合媒介拼贴海报
+# XXD Panel 222｜摄影与数码混合媒介拼贴海报
 
 일상 사진을 독립적인 아트 포스터로 재연출합니다. 알아볼 수 있는 핵심은 남기고 재료·구도·여백을 다시 설계합니다.
 
@@ -40,7 +40,7 @@
 
 - `top-bottom`: 전폭 상하 두 영역만 사용합니다. 실제 사진은 위, 디자인은 아래에 정확히 50%씩 둡니다.
 - `left-right`: 전고 좌우 두 영역만 사용합니다. 실제 사진은 왼쪽, 디자인은 오른쪽에 정확히 50%씩 두며 상하 구도로 돌리지 않습니다.
-- `design-only`: 전체 캔버스에 Panel 220의 디자인 번역만 표시하고 사진은 보이지 않는 참고 자료로 사용합니다.
+- `design-only`: 전체 캔버스에 Panel 222의 디자인 번역만 표시하고 사진은 보이지 않는 참고 자료로 사용합니다.
 - `wallpaper-pack`: 휴대폰, iPad, 데스크톱, 시계용 완성 이미지를 각각 만들며 `linked` 또는 `independent`를 선택합니다.
 
 모드와 크기는 여러 개 선택할 수 있습니다. `1:1`, `3:4`, `4:3`, `4:5`, `5:4`, `2:3`, `3:2`, `9:16`, `16:9`, `21:9`, `5:7`, `7:5`, 정확한 픽셀을 지원합니다. 텍스트는 모델 생성, 사용자 원문, 없음 중에서 선택합니다. 폴더 입력은 각 소스를 분리 처리하고 최종 PNG를 하나의 새 작업 폴더에 평면으로 저장합니다.
@@ -50,18 +50,18 @@
 GitHub에서 설치:
 
 ```bash
-npx skills add https://github.com/nevertoday/xxd-panel-220 --skill xxd-panel-220
+npx skills add https://github.com/nevertoday/xxd-panel-222 --skill xxd-panel-222
 ```
 
-설치 후 Agent 세션을 다시 시작하고 `$xxd-panel-220`을 호출하세요. 사용자 단위 Codex 설치에는 `--global --agent codex --yes`를 추가할 수 있습니다.
+설치 후 Agent 세션을 다시 시작하고 `$xxd-panel-222`을 호출하세요. 사용자 단위 Codex 설치에는 `--global --agent codex --yes`를 추가할 수 있습니다.
 
 ```text
-/xxd-panel-220 photo.jpg --mode top-bottom --size 3:4 --text prompt --locale ko-KR
-/xxd-panel-220 photo.jpg --mode left-right --size 16:9 --text prompt --locale en-US
-/xxd-panel-220 photo.jpg --mode design-only --size 9:16 --text none --prefs off
+/xxd-panel-222 photo.jpg --mode top-bottom --size 3:4 --text prompt --locale ko-KR
+/xxd-panel-222 photo.jpg --mode left-right --size 16:9 --text prompt --locale en-US
+/xxd-panel-222 photo.jpg --mode design-only --size 9:16 --text none --prefs off
 ```
 
-전체 실행 계약은 [SKILL.md](SKILL.md), 런타임 어댑터는 [영어](references/xxd-panel-220-prompt.en.md)와 [중국어](references/xxd-panel-220-prompt.zh-CN.md)를 확인하세요.
+전체 실행 계약은 [SKILL.md](SKILL.md), 런타임 어댑터는 [영어](references/xxd-panel-222-prompt.en.md)와 [중국어](references/xxd-panel-222-prompt.zh-CN.md)를 확인하세요.
 
 <!-- xxd-readme-ads:start -->
 ## XXD 소개
