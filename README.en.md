@@ -1,12 +1,14 @@
 <div align="center">
 
-# XXD Panel 222｜摄影与数码混合媒介拼贴海报
+# XXD Panel 222｜建筑化字体图形装置
 
-Redirect an everyday photograph into a standalone art poster, preserving its recognisable core while rethinking material, composition and whitespace.
+Turn the photograph into an architectural type-image: a small central landmark where the lettering is the structure, in orange, cyan, yellow and magenta.
 
 <a href="README.md">简体中文</a> · <a href="README.en.md">English</a> · <a href="README.ja.md">日本語</a> · <a href="README.ko.md">한국어</a> · <a href="README.ar.md">العربية</a>
 
 </div>
+
+> Original prompt (five-language entry): [简中](references/original-prompt/zh-CN.md) · [English](references/original-prompt/en.md) · [日本語](references/original-prompt/ja.md) · [한국어](references/original-prompt/ko.md) · [العربية](references/original-prompt/ar.md)。
 
 ## 16:9 Left–Right Samples
 
@@ -40,9 +42,9 @@ Four further independent sources, different from the 16:9 set, regenerated as co
 
 ## Best-fit situations and problems solved
 
-For personal photography collections, independent publications, exhibition studies and lifestyle visuals. A weak composition, busy background or small subject becomes a starting point for subtraction, rearrangement, cropping and scale changes—not a reason to apply a filter.
+For public-culture posters, festival graphics, architecture studios and editorial systems. The upper half keeps a recognisable source photograph. The lower half turns the subject into one small, isolated type-and-geometry landmark. Lettering is part of the structure, not a caption added afterwards.
 
-上半部分保留原始照片，保持主体身份、结构、姿态、真实质感、自然光影和原有色彩氛围，仅进行轻微高级调色
+Orange carries structure and the type skeleton, cyan carries secondary information, yellow lifts, magenta is a small jump, and black holds the weight, all on warm white. Avoid full-bleed layouts, busy backgrounds, several equal focal points, ordinary headline-plus-body setting, realistic illustration, cartoons, 3D, cheap colour clash and template posters.
 
 ## Usage tips
 

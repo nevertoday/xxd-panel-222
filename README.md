@@ -1,12 +1,14 @@
 <div align="center">
 
-# XXD Panel 222｜摄影与数码混合媒介拼贴海报
+# XXD Panel 222｜建筑化字体图形装置
 
-把普通照片重新导演成可独立使用的艺术海报；保留主体记忆点，让材质、构图与留白共同工作。
+把照片收成建筑化字体装置：小体量中心主视觉、文字即结构、橙青黄品红功能分色。
 
 <a href="README.md">简体中文</a> · <a href="README.en.md">English</a> · <a href="README.ja.md">日本語</a> · <a href="README.ko.md">한국어</a> · <a href="README.ar.md">العربية</a>
 
 </div>
+
+> 原始提示词（五语入口）：[简中](references/original-prompt/zh-CN.md) · [English](references/original-prompt/en.md) · [日本語](references/original-prompt/ja.md) · [한국어](references/original-prompt/ko.md) · [العربية](references/original-prompt/ar.md)。
 
 ## 16:9 左右双联样张
 
@@ -40,9 +42,9 @@
 
 ## 适用场景与解决的问题
 
-适合个人摄影整理、独立出版、展览练习和生活方式视觉创作。原图构图普通、背景杂乱或主体偏小，也可以通过删减、重组、裁切和尺度变化重新建立重点，而不是把照片套上滤镜。
+适合公共文化视觉、艺术节海报、建筑工作室和编辑设计。上半保留可辨认的原照；下半把主体收成小体量、中心孤立的字体图形装置，文字是结构的一部分，不是后贴的标题。
 
-整体呈现 **Tiny focal element / Expansive negative space / Warm neutral field / Sparse color accents** 的视觉气质：极小主体、巨大留白、低密度图文、单色印刷块与纸张颗粒共同构成安静、文学、克制、诗意而高级的独立出版物视觉。
+橙色承担结构和字体骨架，青蓝承担辅助层级，黄色负责提亮，品红是少量跳点，黑色压住重心，底是暖白。避免满版、复杂背景、多个同等焦点、普通标题加正文、写实插画、卡通、3D、廉价撞色和模板海报。
 
 ## 使用窍门
 
