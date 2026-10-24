@@ -1,0 +1,84 @@
+{
+  "skill_description": "XXD Panel 222｜Architectural Type Installation: geometrises a photo's subject into a small, isolated typographic landmark built from lines, frames, columns, blocks and colour fields, where a few words drawn from the photo are stretched, compressed, split, stacked vertically or set into the frame as the structure itself, in a compact, sharp geometric typeface, on warm white with generous negative space. The palette is fixed by role rather than taken from the photo: bright orange for structure and letter skeletons, clear cyan for secondary layers, yellow for highlights, a little magenta or hot pink as accents, and black for weight, only slightly adjusted to the photo's colour temperature. Outputs PNG top-bottom or left-right comparisons, design-only images, or phone/tablet/desktop/watch wallpapers, from one photo or a folder. Use when the user invokes xxd-panel-222 or asks for typography-as-image, architectural lettering or festival-poster type installations from a photo.",
+  "short_description": "建筑化字体图形装置：把照片主体变成一座由文字搭成的小型橙青黄品红几何地标",
+  "zh-CN": {
+    "name": "建筑化字体图形装置",
+    "tagline": "把照片主体变成一座由文字和几何块搭起来的小型彩色地标。",
+    "look": "照片主体被几何化、模块化，变成由线、框、柱、方块和色块组成的小型视觉地标，孤立地放在画面中部附近，四周是大片暖白。文字不是后加的标题，而是结构本身：从照片提炼出的几个字被拉长、压缩、拆开、竖排或嵌进框架，用紧凑锐利的几何字体。颜色有固定分工：橙色撑起结构和字骨，青蓝做辅助层级，黄色提亮边缘，品红或亮粉做少量跳点，黑色压住重心，只按照片的色温微调明暗。",
+    "traits": ["字即图形", "建筑化几何", "橙青黄品红", "中心小装置", "大量留白"],
+    "good": [
+      "结构清楚、容易几何化的主体：一栋楼、一座桥、一座塔、一扇门",
+      "有地点或名字可提炼成文字的照片：车站、剧场、街道、展馆",
+      "想做艺术节海报、文化活动主视觉或设计工作室作品的照片"
+    ],
+    "poor": [
+      "希望保留照片原有色彩的需求，配色固定为橙、青、黄、品红加黑",
+      "柔和感性、靠细节和氛围的照片：人像特写、雾景、花朵微距",
+      "想要普通“大标题加正文”排版或写实插画的需求"
+    ]
+  },
+  "en": {
+    "name": "Architectural Type Installation",
+    "tagline": "Turns the subject of a photo into a small colourful landmark built from letters and geometric blocks.",
+    "look": "Your subject is geometrised into modules and becomes a small visual landmark made of lines, frames, columns, blocks and colour fields, standing alone near the middle of the page with wide warm white around it. The text is not a title added afterwards but the structure itself: a few words drawn from the photo are stretched, compressed, split, stacked vertically or set into the frame, in a compact, sharp geometric typeface. The colours have fixed roles: orange carries the structure and the letter skeletons, cyan the secondary layers, yellow lifts the edges, a little magenta or hot pink adds accents and black anchors the weight, with only small shifts in tone to suit the photo.",
+    "traits": ["Type as image", "Architectural geometry", "Orange, cyan, yellow, magenta", "Small central installation", "Generous white space"],
+    "good": [
+      "Subjects with a clear structure that geometrises well: a building, a bridge, a tower, a doorway",
+      "Photos with a place or name that can become the lettering: a station, a theatre, a street, an exhibition hall",
+      "Photos you want as an arts-festival poster, a cultural event key visual or a design-studio piece"
+    ],
+    "poor": [
+      "Requests to keep the photo's own colours, since the palette is fixed to orange, cyan, yellow, magenta and black",
+      "Soft, emotional photos that rely on detail and atmosphere: portrait close-ups, misty scenes, flower macros",
+      "Requests for an ordinary headline-and-body layout or realistic illustration"
+    ]
+  },
+  "ja": {
+    "name": "建築的タイポグラフィ装置",
+    "tagline": "写真の主役を、文字と幾何ブロックで組み上げた小さなカラフルなランドマークにします。",
+    "look": "主役を幾何化、モジュール化し、線、枠、柱、ブロック、色面でできた小さな視覚のランドマークにします。画面の中央付近にぽつんと置かれ、まわりは広い暖かな白です。文字は後から載せる見出しではなく構造そのもので、写真から取った数語を引き伸ばし、圧縮し、分割し、縦に組み、枠にはめ込み、コンパクトで鋭い幾何書体で組みます。色の役割は決まっていて、オレンジが構造と文字の骨格、シアンが補助の層、黄色が縁のハイライト、マゼンタや鮮やかなピンクが少しのアクセント、黒が重心を受け持ちます。写真に合わせて調整するのは明るさと彩度のわずかな差だけです。",
+    "traits": ["文字が図になる", "建築的な幾何", "橙・青・黄・マゼンタ", "中央の小さな装置", "たっぷりの余白"],
+    "good": [
+      "構造が明快で幾何化しやすい主役：ビル、橋、塔、扉",
+      "文字にできる地名や名前がある写真：駅、劇場、通り、展示館",
+      "芸術祭のポスター、文化イベントのメインビジュアル、デザイン事務所の作品にしたい写真"
+    ],
+    "poor": [
+      "写真本来の色を残したい場合（配色は橙、青、黄、マゼンタ、黒に固定です）",
+      "細部や雰囲気が魅力の柔らかく情緒的な写真：顔のアップ、霧の景色、花のマクロ",
+      "ふつうの「見出しと本文」のレイアウトや写実的なイラストを求める場合"
+    ]
+  },
+  "ko": {
+    "name": "건축적 타이포그래피 설치물",
+    "tagline": "사진의 주인공을 글자와 기하 블록으로 쌓아 올린 작고 다채로운 랜드마크로 바꿉니다.",
+    "look": "주인공을 기하화하고 모듈화하여 선, 프레임, 기둥, 블록, 색면으로 이루어진 작은 시각적 랜드마크로 만듭니다. 화면 중앙 근처에 홀로 서 있고 주변은 넓은 따뜻한 흰색입니다. 글자는 나중에 얹는 제목이 아니라 구조 자체로, 사진에서 뽑은 몇 단어를 늘이고, 압축하고, 쪼개고, 세로로 세우고, 프레임에 끼워 넣으며, 촘촘하고 날카로운 기하 서체로 짭니다. 색은 역할이 정해져 있습니다. 주황은 구조와 글자 뼈대, 청록은 보조 층위, 노랑은 가장자리 강조, 마젠타나 밝은 분홍은 약간의 포인트, 검정은 무게중심을 맡고, 사진에 맞춰서는 명도와 채도만 살짝 조정합니다.",
+    "traits": ["글자가 곧 그림", "건축적 기하", "주황·청록·노랑·마젠타", "중앙의 작은 설치물", "넉넉한 여백"],
+    "good": [
+      "구조가 뚜렷해 기하화하기 쉬운 주인공: 빌딩, 다리, 탑, 문",
+      "글자로 뽑아낼 지명이나 이름이 있는 사진: 기차역, 극장, 거리, 전시관",
+      "예술제 포스터, 문화 행사 키 비주얼, 디자인 스튜디오 작업으로 쓰고 싶은 사진"
+    ],
+    "poor": [
+      "사진 본래의 색을 살리고 싶은 경우(배색은 주황, 청록, 노랑, 마젠타, 검정으로 고정됩니다)",
+      "세부와 분위기에 기대는 부드럽고 감성적인 사진: 인물 클로즈업, 안개 낀 풍경, 꽃 접사",
+      "평범한 ‘큰 제목과 본문’ 레이아웃이나 사실적인 일러스트를 원하는 경우"
+    ]
+  },
+  "ar": {
+    "name": "تركيب حروفي معماري",
+    "tagline": "يحوّل العنصر الرئيسي في الصورة إلى معلم صغير ملوّن مبني من الحروف والكتل الهندسية.",
+    "look": "يُحوَّل العنصر الرئيسي إلى أشكال هندسية ووحدات، فيصير معلماً بصرياً صغيراً من خطوط وإطارات وأعمدة وكتل ومساحات لونية، قائماً وحده قرب منتصف الصفحة ويحيط به أبيض دافئ واسع. النص ليس عنواناً يُضاف لاحقاً بل هو البنية نفسها: كلمات قليلة مستخلصة من الصورة تُمدّ وتُضغط وتُجزّأ وتُرصّ عمودياً أو تُدخل في الإطار، بخط هندسي مضغوط حاد. للألوان أدوار ثابتة: البرتقالي يحمل البنية وهياكل الحروف، والسماوي الطبقات الثانوية، والأصفر يضيء الحواف، وقليل من الماجنتا أو الوردي الزاهي للتأكيد، والأسود لتثبيت الثقل، ولا يتغير مع الصورة إلا شيء يسير من الدرجة والتشبع.",
+    "traits": ["الحرف صورة", "هندسة معمارية", "برتقالي وسماوي وأصفر وماجنتا", "تركيب مركزي صغير", "فراغ أبيض واسع"],
+    "good": [
+      "عناصر واضحة البنية يسهل تحويلها إلى هندسة: مبنى، جسر، برج، مدخل",
+      "صور فيها مكان أو اسم يصلح أن يصير حروفاً: محطة، مسرح، شارع، قاعة معارض",
+      "صور تريدها ملصقاً لمهرجان فني أو صورة رئيسية لفعالية ثقافية أو عملاً لاستوديو تصميم"
+    ],
+    "poor": [
+      "الرغبة في الإبقاء على ألوان الصورة الأصلية، فالألوان ثابتة على البرتقالي والسماوي والأصفر والماجنتا والأسود",
+      "صور ناعمة عاطفية تعتمد على التفاصيل والأجواء: صور شخصية قريبة، مناظر ضبابية، زهور مكبّرة",
+      "طلب تصميم عادي من عنوان كبير ونص أو رسم واقعي"
+    ]
+  }
+}

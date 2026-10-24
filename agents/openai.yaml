@@ -1,4 +1,4 @@
 interface:
   display_name: "XXD Panel 222"
-  short_description: "建筑化字体图形装置：上半保留原照，下半把主体收成文字即结构的小型装置"
-  default_prompt: "Use $xxd-panel-222 to transform my photograph following the complete canonical source brief."
+  short_description: "建筑化字体图形装置：把照片主体变成一座由文字搭成的小型橙青黄品红几何地标"
+  default_prompt: "Use $xxd-panel-222 to turn my photo into Architectural Type Installation artwork."
